@@ -2,8 +2,214 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bd450fe-10ab-4dd4-a67f-6423b67e8d93" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Argentina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Belgium.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Brazil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Colombia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Germany.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Ghana.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Japan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Netherlands.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Spain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/United States.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Uruguay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter1/1_11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter1/1_16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter1/1_17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter1/1_20.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter1/1_21.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter1/1_22.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter1/1_25.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter1/1_31.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter1/1_32.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter1/1_33.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter1/1_34.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/10_01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/10_02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/10_03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/10_04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/10_05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/10_06.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/10_07.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/10_08.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/10_09.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/10_10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/10_11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/10_12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/d3.grid_01.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/d3.grid_02.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/d3.grid_03.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/d3.grid_04.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/d3.simplelegend_01.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/d3.simplelegend_02.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/d3.simplelegend_03.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter10/d3.simplelegend_04.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter11/11_02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter11/11_04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter11/11_05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter11/11_06.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter11/11_07.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter11/11_08.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter11/11_09.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter11/11_10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter11/11_11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter11/11_12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter11/11_13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_18.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_19.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_20.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_21.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_22.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_23.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_25.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter2/2_27.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_06.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_09.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_18.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_19.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_20.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_21.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_22.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_23.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter3/3_24.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_07.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_08.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_09.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_18.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_19.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_20.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_22.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_23.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_24.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter4/4_25.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_06.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_07.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_08.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_08_tween.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_09.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_24.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_25.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_26.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_28.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_29.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter5/5_30.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6/6_10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6/6_11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6/6_12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6/6_14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6/6_15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6/6_16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6/6_16_zoom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6/6_17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6/6_20.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6/6_21.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6/6_22.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6/6_23.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter6/6_24.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_06.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_07.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_08.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_09.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_18.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter7/7_19.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter8/8_03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter8/8_04.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter8/8_05.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter8/8_06.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter8/8_07.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter8/8_08.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter8/8_09.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter8/8_10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter8/8_11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter8/8_12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter8/8_13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter8/8_14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter8/8_15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter8/8_16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/src/App.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/src/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/src/App.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/src/BarChart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/src/Brush.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/src/StatLine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/src/StreamGraph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/src/WorldMap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/src/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/src/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter9/reactd3/src/world.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/d3ia.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/boxplot.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/cities.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/edgelist.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/movies.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/nodelist.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/realestate.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/sitestats.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/tweetdata.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/tweets.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/worddata.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/world.geojson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/world.topojson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/worldcup.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/cloud.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/colorbrewer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/d3-sankey.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/d3.layout.cloud.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/legend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/icon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/modal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +242,7 @@
         <entry file="file://$PROJECT_DIR$/src/WorldMap.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -48,7 +254,7 @@
         <entry file="file://$PROJECT_DIR$/src/BarChart.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,17 +274,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/d3-geo/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="31" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,7 +284,7 @@
         <entry file="file://$PROJECT_DIR$/src/StreamGraph.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-100">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -100,7 +296,7 @@
         <entry file="file://$PROJECT_DIR$/src/Brush.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -110,7 +306,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+              <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -118,11 +314,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -151,6 +357,7 @@
         <option value="$PROJECT_DIR$/src/WorldMap.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -307,12 +514,12 @@
       <option name="presentableId" value="Default" />
       <updated>1496757658114</updated>
       <workItem from="1496757659441" duration="383000" />
-      <workItem from="1496758455696" duration="17176000" />
+      <workItem from="1496758455696" duration="17258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17559000" />
+    <option name="totallyTimeSpent" value="17641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -409,14 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/topojson/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -492,7 +691,7 @@
     <entry file="file://$PROJECT_DIR$/src/Brush.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -500,7 +699,7 @@
     <entry file="file://$PROJECT_DIR$/src/StreamGraph.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-100">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -510,7 +709,7 @@
     <entry file="file://$PROJECT_DIR$/src/BarChart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -526,7 +725,7 @@
     <entry file="file://$PROJECT_DIR$/src/WorldMap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -536,7 +735,7 @@
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -544,7 +743,7 @@
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+          <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -555,6 +754,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
           <folding />
         </state>
       </provider>
