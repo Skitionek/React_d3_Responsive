@@ -1,1 +1,0 @@
-It's all in the /reactd3 directory.
