@@ -15,7 +15,7 @@
     "d3-shape": "1.0.3",
     "d3-svg-legend": "2.15.0",
     "d3-transition": "1.0.3",
-    "react": "15.3.2",
+    "react": "16.5.0",
     "react-dom": "15.3.2",
     "react-measure": "^2.0.2",
     "topojson-client": ">=2.2.0"
