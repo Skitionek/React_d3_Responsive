@@ -2,7 +2,9 @@
   "name": "reactd3",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://skitionek.github.io/React_d3_Responsive",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "react-scripts": "0.7.0"
   },
   "dependencies": {
@@ -24,6 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
