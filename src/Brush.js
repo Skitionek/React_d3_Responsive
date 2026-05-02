@@ -6,85 +6,84 @@ import { brushX } from 'd3-brush'
 import { axisBottom } from 'd3-axis'
 
 class Brush extends Component {
-  constructor(props){
+  constructor (props) {
     super(props)
-    this.state = { size: [100, 100]}
+    this.state = { size: [100, 100] }
   }
 
-  onResize(self) {
-      return function(){self.setState({size: [self.node.getBoundingClientRect().width,self.node.getBoundingClientRect().height]})}
+  onResize (self) {
+    return function () { self.setState({ size: [self.node.getBoundingClientRect().width, self.node.getBoundingClientRect().height] }) }
   }
 
   componentDidMount () {
-      window.addEventListener('resize', this.onResize(this), false)
-      this.onResize(this)()
-      this.createBrush()
-  }
-
-  componentDidUpdate() {
+    window.addEventListener('resize', this.onResize(this), false)
+    this.onResize(this)()
     this.createBrush()
   }
 
-  createBrush() {
+  componentDidUpdate () {
+    this.createBrush()
+  }
+
+  createBrush () {
     const node = this.node
-    const scale = scaleLinear().domain([0,36])
-      .range([0,this.state.size[0]])
+    const scale = scaleLinear().domain([0, 36])
+      .range([0, this.state.size[0]])
 
     const dayBrush = brushX()
       .extent([[0, 0], this.state.size])
-      .on("brush", brushed)
+      .on('brush', brushed)
 
     const dayAxis = axisBottom()
       .scale(scale)
 
     select(node)
-      .selectAll("g.brushaxis")
+      .selectAll('g.brushaxis')
       .data([0])
       .enter()
-      .append("g")
-        .attr("class", "brushaxis")
-        .attr("transform", "translate(0,25)")
+      .append('g')
+      .attr('class', 'brushaxis')
+      .attr('transform', 'translate(0,25)')
 
     select(node)
-      .select("g.brushaxis")
-        .call(dayAxis)
+      .select('g.brushaxis')
+      .call(dayAxis)
 
     select(node)
-      .selectAll("g.brush")
+      .selectAll('g.brush')
       .data([0])
       .enter()
-      .append("g")
-        .attr("class", "brush")
-        .attr("transform", "translate(0,0)")
+      .append('g')
+      .attr('class', 'brush')
+      .attr('transform', 'translate(0,0)')
 
     select(node)
-      .select("g.brush")
+      .select('g.brush')
       .call(dayBrush)
 
     select(node)
-      .select("g.brush")
-      .selectAll("g.resize")
-      .selectAll("circle")
+      .select('g.brush')
+      .selectAll('g.resize')
+      .selectAll('circle')
       .data([0])
       .enter()
-      .append("circle")
-        .attr("r", 25)
-        .attr("cy",25)
-        .style("fill", "white")
-        .style("stroke", "black")
-        .style("stroke-width", "4px")
-        .style("opacity", .75);
+      .append('circle')
+      .attr('r', 25)
+      .attr('cy', 25)
+      .style('fill', 'white')
+      .style('stroke', 'black')
+      .style('stroke-width', '4px')
+      .style('opacity', 0.75)
 
     const brushFn = this.props.changeBrush
-    function brushed() {
+    function brushed () {
       const selectedExtent = event.selection.map(d => scale.invert(d))
       brushFn(selectedExtent)
     }
-
   }
 
-  render() {
-    return <svg ref={node => this.node = node} className="Brush"></svg>
+  render () {
+    return <svg ref={node => this.node = node} className='Brush' />
   }
 }
 
