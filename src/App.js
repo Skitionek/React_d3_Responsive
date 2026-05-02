@@ -8,7 +8,6 @@ import StatLine from './StatLine'
 import worlddata from './world'
 import { range } from 'd3-array'
 import { scaleThreshold } from 'd3-scale'
-import { geoCentroid } from 'd3-geo'
 import * as topojson from 'topojson-client'
 
 const appdata = topojson.feature(worlddata, worlddata.objects.states).features

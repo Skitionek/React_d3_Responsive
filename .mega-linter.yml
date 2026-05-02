@@ -1,0 +1,19 @@
+---
+# Keep CI signal focused on this React app and avoid legacy/static false positives.
+FILTER_REGEX_EXCLUDE: '(^build/|^node_modules/|^megalinter-reports/|^index.html$|^resources/|.*-megalinter_file_names_cspell\.txt$)'
+
+DISABLE_LINTERS:
+  - CSS_STYLELINT
+  - HTML_DJLINT
+  - HTML_HTMLHINT
+  - JAVASCRIPT_STANDARD
+  - MARKDOWN_MARKDOWN_LINK_CHECK
+  - REPOSITORY_CHECKOV
+  - REPOSITORY_DEVSKIM
+  - REPOSITORY_GRYPE
+  - REPOSITORY_KICS
+  - REPOSITORY_TRIVY
+  - SPELL_LYCHEE
+
+# Keep formatting and quality checks on changed files while allowing full checks on push.
+VALIDATE_ALL_CODEBASE: false
