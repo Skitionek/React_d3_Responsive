@@ -5,23 +5,23 @@ import { range } from 'd3-array'
 import { scaleLinear } from 'd3-scale'
 
 class StreamGraph extends Component {
-  constructor(props){
+  constructor (props) {
     super(props)
-    this.state = { size: [100, 100]}
+    this.state = { size: [100, 100] }
   }
 
-  onResize(self) {
-    return function(){self.setState({size: [self.refs.svg.getBoundingClientRect().width,self.refs.svg.getBoundingClientRect().height]})}
+  onResize (self) {
+    return function () { self.setState({ size: [self.refs.svg.getBoundingClientRect().width, self.refs.svg.getBoundingClientRect().height] }) }
   }
 
   componentDidMount () {
-      window.addEventListener('resize', this.onResize(this), false)
-      this.onResize(this)()
+    window.addEventListener('resize', this.onResize(this), false)
+    this.onResize(this)()
   }
 
-  render() {
+  render () {
     const stackData = range(30).map(() => ({}))
-    for (let x = 0; x<30; x++) {
+    for (let x = 0; x < 30; x++) {
       this.props.data.forEach(country => {
         stackData[x][country.id] = country.data[x]
       })
@@ -44,17 +44,19 @@ class StreamGraph extends Component {
       .curve(curveBasis)
 
     const stacks = stackLayout(stackData).map((d, i) => <path
-        key={"stack" + i}
-        d={stackArea(d)}
-        onMouseEnter={() => {this.props.onHover(this.props.data[i])}}
-        style={{fill: this.props.hoverElement === this.props.data[i]["id"] ? "#FCBC34" : this.props.colorScale(this.props.data[i].launchday), stroke: "black", strokeOpacity: 0.5 }}
-      />)
+      key={'stack' + i}
+      d={stackArea(d)}
+      onMouseEnter={() => { this.props.onHover(this.props.data[i]) }}
+      style={{ fill: this.props.hoverElement === this.props.data[i].id ? '#FCBC34' : this.props.colorScale(this.props.data[i].launchday), stroke: 'black', strokeOpacity: 0.5 }}
+                                                        />)
 
-    return <svg ref="svg" className="StreamGraph">
-      <g transform={"translate(0," + (-this.state.size[1] / 2) + ")"}>
-        {stacks}
-      </g>
-    </svg>
+    return (
+      <svg ref='svg' className='StreamGraph'>
+        <g transform={'translate(0,' + (-this.state.size[1] / 2) + ')'}>
+          {stacks}
+        </g>
+      </svg>
+    )
   }
 }
 
